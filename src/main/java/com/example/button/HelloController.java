@@ -31,10 +31,10 @@ public class HelloController {
         Rec3.setFill(null);
     }
     @FXML
-    void LesothoButtonOnAction(ActionEvent event) {
+    void ItalyButtonOnAction(ActionEvent event) {
         Rec1.setFill(Color.GREEN);
-        Rec2.setFill(Color.GREEN);
-        Rec3.setFill(Color.GREEN);
+        Rec2.setFill(Color.WHITE);
+        Rec3.setFill(Color.RED);
     }
     @FXML
     void MaliButtonOnAction(ActionEvent event) {
