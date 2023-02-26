@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="628.0" style="-fx-background-color: #73A5C6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.button.HelloController">
+   <children>
+      <Pane fx:id="Container" layoutX="123.0" layoutY="13.0" prefHeight="370.0" prefWidth="489.0">
+         <children>
+            <Rectangle fx:id="Rec1" fill="#892020" height="367.0" layoutX="1.0" layoutY="2.0" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+            <Rectangle fx:id="Rec2" fill="#4256c9" height="367.0" layoutX="164.0" layoutY="2.0" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+            <Rectangle fx:id="Rec3" fill="#ef0808" height="367.0" layoutX="327.0" layoutY="2.0" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+         </children>
+      </Pane>
+      <Button fx:id="LesothoButton" layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#LesothoButtonOnAction" prefHeight="26.0" prefWidth="100.0" text="Lesotho" textFill="#1566bc">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="MaliButton" layoutX="14.0" layoutY="290.0" mnemonicParsing="false" onAction="#MaliButtonOnAction" prefHeight="26.0" prefWidth="100.0" text="Mali" textFill="#1566bc">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="MongoliaButton" layoutX="14.0" layoutY="212.0" mnemonicParsing="false" onAction="#MongoliaButtonOnAction" prefHeight="26.0" prefWidth="100.0" text="Mongolia" textFill="#1566bc">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="RomaniaButton" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" onAction="#RomaniaButtonOnAction" prefHeight="26.0" prefWidth="100.0" text="Romania" textFill="#1566bc">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="BelgiumButton" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" onAction="#BelgiumButtonOnAction" prefHeight="26.0" prefWidth="100.0" text="Belgium" textFill="#1566bc">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="ChadButton" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#ChadButtonOnAction" prefHeight="26.0" prefWidth="100.0" text="Chad" textFill="#1566bc">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="298.0" layoutY="403.0" mnemonicParsing="false" onAction="#ClearButtonOnAction" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #1566bc;" text="Clear" textFill="#e4eaed">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
